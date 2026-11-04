@@ -86,5 +86,8 @@ Run a ReAct agent with qwen2.5:3b and llama3.1:8b (Ollama) on clinic questions w
 3. Geifman, Y., and El-Yaniv, R. (2017). Selective classification for deep neural networks. *NeurIPS 2017*. https://papers.nips.cc/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html
 4. Yao, S., et al. (2023). ReAct: Synergizing reasoning and acting in language models. *ICLR 2023*. https://arxiv.org/abs/2210.03629
 
+## Article
+[An evidence gate cut unsupported agent answers to 6%, but also dropped over half the good ones](https://masmatixinnovations.co.uk/insights/react-abstention-benchmark.html)
+
 ## Licence
 MIT, see [LICENSE](LICENSE).
