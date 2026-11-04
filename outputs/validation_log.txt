@@ -1,7 +1,6 @@
-RAB v0.1.0 final validation
-- Full baseline: 5,000 synthetic episodes across seeds 17, 29, 43, 71, 101.
-- Evaluation rows: 25,000 (5 policies per episode).
-- Unit tests: 12 passed.
-- End-to-end smoke test: passed on 40 episodes across two seeds.
-- Notebook JSON: parsed successfully.
-- Scope: deterministic synthetic policy simulation; no LLM training or live tool calls.
+RAB v0.1 validation
+- Released run: 20,000 synthetic episodes (4,000 per seed) across seeds 17, 29, 43, 71, 101.
+- Evaluation rows: 100,000 (5 policies per episode).
+- Unit tests: 14 (12 benchmark, 2 formula check).
+- Formula vs simulation: 85 values, largest gap 0.0128 (outputs/expected_vs_observed.csv).
+- Scope: synthetic policy simulation; no language model and no live tool calls.

@@ -1,4 +1,4 @@
-# Experimental Protocol v1.0 — ReAct Abstention Benchmark
+# Experimental protocol v1.0: ReAct Abstention Benchmark
 
 **Release:** RAB v0.1.0  
 **Author:** Muzammal Hussain  
@@ -16,9 +16,9 @@ Can evidence-feature-based abstention policies reduce unsupported answers under 
 
 ## 3. Hypotheses
 
-- **H1 — Presence-only limitation:** `presence_only` will emit answers on irrelevant and contradictory episodes because it treats any returned evidence as sufficient.
-- **H2 — Threshold/risk trade-off:** increasing the evidence threshold will generally reduce unsupported answers but may also reduce answerable coverage.
-- **H3 — Conservative abstention cost:** a sufficiently strict threshold will increase unnecessary abstention on some answerable episodes because the evidence-score distributions overlap.
+- **H1 - Presence-only limitation:** `presence_only` will emit answers on irrelevant and contradictory episodes because it treats any returned evidence as sufficient.
+- **H2 - Threshold/risk trade-off:** increasing the evidence threshold will generally reduce unsupported answers but may also reduce answerable coverage.
+- **H3 - Conservative abstention cost:** a sufficiently strict threshold will increase unnecessary abstention on some answerable episodes because the evidence-score distributions overlap.
 
 These are hypotheses about this simulator, not universal claims about real agents.
 
@@ -82,6 +82,8 @@ Default release experiment:
 - total unique episodes: 5,000;
 - policies: 5;
 - policy-decision rows: 25,000.
+
+The released run is an extended version of this plan with the same seeds and 4,000 episodes per seed: 20,000 episodes and 100,000 policy decisions.
 
 Run the same seeds and episode count for all policies. Report pooled values and seed-level values. Report mean and sample standard deviation across seeds; do not select the best seed.
 
