@@ -12,7 +12,7 @@ v0.1 is a **synthetic simulator**. It does not call a language model or run real
 | Link | What it is |
 |---|---|
 | [Kaggle dataset](https://www.kaggle.com/datasets/muzammalhussain11/react-abstention-benchmark-dataset) | the generated episodes |
-| [Kaggle notebook](https://www.kaggle.com/code/muzammalhussain11/react-abstention-benchmark-evidence-based-agent) | runs the benchmark on the dataset |
+| [Kaggle notebook](https://www.kaggle.com/code/muzammalhussain11/react-abstention-benchmark-synthetic-evidence-gat) | runs the benchmark on the dataset |
 | [Open in Colab](https://colab.research.google.com/github/MHKhan50/react-abstention-benchmark/blob/main/notebooks/RAB_Kaggle_Colab.ipynb) | same notebook in Google Colab |
 
 ## Simulator
