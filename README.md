@@ -1,5 +1,7 @@
 # ReAct Abstention Benchmark (RAB) v0.1
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24228927.svg)](https://doi.org/10.5281/zenodo.24228927)
+
 **Author:** Muzammal Hussain · **Python:** 3.9+ · **Dependencies:** standard library only (the notebook also uses pandas and matplotlib)
 
 **Research question:** When a tool-using agent gets missing, irrelevant or contradictory evidence, can a simple rule on the evidence decide when it should say "I don't know", and how much useful answering does that cost when the evidence is good?
