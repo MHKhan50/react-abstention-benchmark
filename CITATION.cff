@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "ReAct Abstention Benchmark (RAB)"
+version: 0.1.0
+date-released: 2026-11-14
+type: software
+authors:
+  - family-names: Hussain
+    given-names: Muzammal
+    orcid: "https://orcid.org/0009-0001-2570-5686"
+repository-code: "https://github.com/MHKhan50/react-abstention-benchmark"
+license: MIT
+keywords:
+  - ReAct
+  - abstention
+  - selective prediction
+  - synthetic benchmark
